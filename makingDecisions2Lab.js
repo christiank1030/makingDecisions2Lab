@@ -68,11 +68,23 @@ var score = 74
 // Do not edit the code above.
 
 /*
-  Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
+  Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 
+  70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
 */
 
 //Code Here
 
+if(score >= 90) {
+  console.log('A')
+} else if (score < 90 && score >= 80) {
+  console.log('B')
+} else if(score < 80 && score >= 70) {
+  console.log('C')
+} else if(score < 70 && score >= 60) {
+  console.log('D') 
+} else {
+  console.log('F')
+}
 
 ////////// Intermediate Problems //////////
 
